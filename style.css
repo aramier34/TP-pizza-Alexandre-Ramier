@@ -1,0 +1,233 @@
+body{
+    background-color: #F6ECEC;
+
+}
+#page {
+    margin: 1rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
+header {
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+header div{
+    display:flex;
+}
+
+header div h1 {
+    text-align: left;
+}
+
+header div ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    list-style: none;
+
+}
+
+header div ul li {
+    margin-right: 20px;
+}
+
+#haut{
+    display: flex;
+    justify-content: space-around;
+}
+.w-50{
+    width: 50%;
+    text-align: left;
+}
+
+.w-100 {
+    width:100%;
+  }
+
+
+#premiere {
+
+    width: 574px;
+    height: 251px;
+    left: 116px;
+    top: 264px;
+}
+#haut{
+    display: flex;
+    justify-content: space-around;
+}
+#sign {
+    padding: 10px 24px 11px;
+    gap: 10px;
+    color: white;
+    width: 103px;
+    height: 40px;
+    border-color: #EC0000;
+    background: #EC0000;
+    border-radius: 25px;
+}
+
+#order {
+    padding: 10px 24px 11px;
+    gap: 10px;
+    color: white;
+    width: 182px;
+    height: 50px;
+    border-color: #EC0000;
+    background: #EC0000;
+    box-shadow: -10px 20px 40px rgba(236, 0, 0, 0.16);
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#premiere h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 74px;
+    width: 544px;
+    height: 110px;
+    color: #00240F;
+    font-family: 'Fira Sans';
+    font-style: normal;
+}
+
+#premiere h2 {
+    width: 574px;
+    height: 51px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 58px;
+    color: #00240F;
+}
+
+ul{
+    list-style: none;
+}
+#pizzas{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
+#fin{
+    display: flex;
+    text-align: center;
+    
+}
+.bouton{
+    padding: 10px 24px 11px;
+gap: 10px;
+
+width: 243px;
+height: 40px;
+color:white;
+background: #EC0000;
+border-radius: 25px;
+}
+
+.select{
+    padding: 9px 16px;
+gap: 27px;
+width: 243px;
+height: 40px;
+background: #FFFFFF;
+border: 1px solid #4F4F4F;
+border-radius: 25px;
+}
+
+#menu{
+   
+width: 388px;
+height: 48px;
+left: 526px;
+top: 709px;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 74px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+margin:auto;
+color: #00240F;
+}
+
+.w-50 h1{
+    width: 544px;
+height: 110px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 74px;
+}
+.w-50 h2{
+    width: 574px;
+    height: 51px;
+    
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 58px;
+}
+
+#cheese{
+    
+    box-sizing: border-box;
+    border: 1px solid #BDBDBD;
+border-radius: 180px 180px 30px 30px;
+text-align: center;
+justify-content: center;
+}
+
+#pepperoni{
+    box-sizing: border-box;
+    border: 1px solid #BDBDBD;
+border-radius: 180px 180px 30px 30px;
+text-align: center;
+justify-content: center;
+}
+
+#margherita{
+    box-sizing: border-box;
+    border: 1px solid #BDBDBD;
+border-radius: 180px 180px 30px 30px;
+text-align: center;
+justify-content: center;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.prix{
+    width: 258px;
+height: 38px;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+
+}
+.titre{
+    font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+}
